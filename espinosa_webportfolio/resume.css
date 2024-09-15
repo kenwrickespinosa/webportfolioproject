@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 156, 26);
+}
+
+#container {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    background-color: white;
+}
+
+#container-section {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+#header-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.school-card {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.school-card > p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.school-name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.visit-school {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+    margin-left: 89.5%;
+}
+
+.visit-school:hover {
+    background-color:rgb(255, 156, 26);
+}
+
+.visit-school a {
+    text-decoration: none;
+}
+

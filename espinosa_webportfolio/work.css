@@ -1,0 +1,17 @@
+#container {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    background-color: white;
+}
+
+#container-section {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+#header-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
